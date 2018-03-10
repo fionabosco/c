@@ -8,9 +8,9 @@ int main(void)
 	if(n%i!=0)
 	{
 		flag=1;
-		i++;
+		break;
 	}
-	if(flag=1)
+	if(flag==0)
             {
 	printf("yes");
             }
